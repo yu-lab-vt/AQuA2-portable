@@ -1,0 +1,14 @@
+.venv/
+build/
+dist/
+verification/
+artifacts/
+__pycache__/
+*.egg-info/
+*.pyd
+*.so
+*.log
+reference/local/
+user-data/
+results/
+*.aqua.h5

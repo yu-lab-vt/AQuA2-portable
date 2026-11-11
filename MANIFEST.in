@@ -1,0 +1,2 @@
+include native/bridge.cpp native/mex.h
+recursive-include native/vendor *.cpp *.h LICENSE

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aqua2"
+version = "0.1.0rc1"
+description = "AQuA2 Portable event detection, CFU analysis and GPU visualization"
+requires-python = ">=3.12"
+license = "GPL-3.0-only"
+license-files = ["LICENSE", "native/vendor/LICENSE"]
+dependencies = ["numpy>=2", "scipy>=1.14", "h5py>=3.10", "tifffile>=2024.8", "numba>=0.61", "imageio>=2.35", "imageio-ffmpeg>=0.5", "scikit-image>=0.24"]
+
+[project.optional-dependencies]
+viewer = ["matplotlib>=3.9"]
+gpu-viewer = ["matplotlib>=3.9", "PyQt6>=6.8,<7", "PyOpenGL>=3.1.9,<4"]
+
+[project.scripts]
+aqua2 = "aqua2.__main__:main"
+
+[project.gui-scripts]
+aqua2-gui = "aqua2.viewer:launch"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+aqua2 = ["data/*.mat", "data/*.csv"]

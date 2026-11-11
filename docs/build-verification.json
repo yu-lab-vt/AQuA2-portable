@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0-rc1",
+  "platform": "Windows x64",
+  "source_tests": {
+    "run": 186,
+    "passed": 149,
+    "skipped": 37,
+    "errors": 0,
+    "failures": 0
+  },
+  "frozen_verified": true,
+  "source_frozen_fingerprints_equal": true,
+  "new_jit_cache_files": 23,
+  "independent_gpu_process": true,
+  "main_process_qt_modules_absent": true,
+  "relocated_non_ascii_space_path": true,
+  "no_python_or_matlab_on_child_path": true,
+  "project_save_reopen": true,
+  "results_export": true,
+  "cfu_csv_count": 116,
+  "cfu_csv_matches_source": true,
+  "cfu_mean_preview": true,
+  "synthetic_avi": true,
+  "license": "GPL-3.0-only",
+  "signed": false,
+  "separate_clean_vm_tested": false,
+  "private_data_in_assets": false,
+  "cfu_mean_preview_pixels_match_source": true
+}

@@ -1,0 +1,343 @@
+{
+  "upstream": "https://github.com/yu-lab-vt/AQuA2",
+  "base_commit": "4c1a8e6261436f1c7df2768eded31407ab02944b",
+  "export": "Python implementation + required C++ kernels/numeric resource tables only",
+  "version": "0.1.0rc1",
+  "license_review": "GPL-3.0-only explicitly authorized by upstream laboratory maintainer on 2026-11-11",
+  "portable_source_files": [
+    {
+      "path": "src/aqua2/__init__.py",
+      "sha256": "9c29deb6f2e1816d1bb950deef6cfe774382929cdc74e84903019bd5bf8a390e"
+    },
+    {
+      "path": "src/aqua2/__main__.py",
+      "sha256": "18c9f44acba867845acea900271db7d9e5c569ba7d081863fdded90ff9a4ac85"
+    },
+    {
+      "path": "src/aqua2/act.py",
+      "sha256": "85c0ebcad609afca9fcd11db531bfaa3d4d49ea16bc4041d766abf0d5995b8db"
+    },
+    {
+      "path": "src/aqua2/bleach.py",
+      "sha256": "886d1ea307e899eb9c5d96cf1f41d56dbcc1008966dedb8b6fc4fa69800867bb"
+    },
+    {
+      "path": "src/aqua2/cfu.py",
+      "sha256": "88dee61f5ddfd32361dca1389dbb69f68ca7cf4d4f13a98b327dcda31fa5ff35"
+    },
+    {
+      "path": "src/aqua2/cfu_dependency.py",
+      "sha256": "1b6630cf17d8275b6eaa5eb841333a173df841654a2a99ef2d876bdaf483ed80"
+    },
+    {
+      "path": "src/aqua2/cfu_merge.py",
+      "sha256": "53a543e6e5cb5ffbe03c9b209f9fdb4b8315181b9e18b8b71ef2ca4972d8b3bb"
+    },
+    {
+      "path": "src/aqua2/cfu_parity.py",
+      "sha256": "6ae5a7f7a0b048b73f4fa353764be7b06253c2cc8c583dc757ec7b6cb666c8c4"
+    },
+    {
+      "path": "src/aqua2/cfu_spatial.py",
+      "sha256": "fc5e34b4c18b8f115c09d5ad0072f2751a4d58915401c75fce158e3239e4482f"
+    },
+    {
+      "path": "src/aqua2/compare.py",
+      "sha256": "6251ffd6d0c11b43bf8c2f734694ea1555c397f491a6767951340a3f2990dada"
+    },
+    {
+      "path": "src/aqua2/compat.py",
+      "sha256": "8a3d1d99b8c665c589c003acae426e61685cee752ec696b85e95a424aa7d0030"
+    },
+    {
+      "path": "src/aqua2/components.py",
+      "sha256": "ac88c5081ed3d8ee256fc396f78022c601bd0797dce992fbd470f85f3035bb4b"
+    },
+    {
+      "path": "src/aqua2/config.py",
+      "sha256": "7b13dfb2db8bcc11be3a60659e9499bb681f69283f1b4e2672e561b7b4df1af7"
+    },
+    {
+      "path": "src/aqua2/data/disk-footprints-r2024b.mat",
+      "sha256": "dd47b437809c6cbc501615bb79ec6a3b218cca9588d178422144637ccb973756"
+    },
+    {
+      "path": "src/aqua2/data/F0_biasMatrix.mat",
+      "sha256": "9edffd269d0aa32bb9c9ea535d9f928eadc5b23dc01f35a8fa75aa16e7845da8"
+    },
+    {
+      "path": "src/aqua2/data/Order_mus_sigmas.mat",
+      "sha256": "2a6fc37c07e83f78b9ac02f0a47f31ac9ead2a46887bc95a8f6792a9a96b0b31"
+    },
+    {
+      "path": "src/aqua2/data/parameters_for_batch.csv",
+      "sha256": "40c8a389ed60fdea2e74bbfd8e74338d36f57697cdbe3d0062dc84113f6f25c9"
+    },
+    {
+      "path": "src/aqua2/data/userFeatures.csv",
+      "sha256": "59258c37d1b85b0c8e4a86008fea7c85ad6d2de91552c2f393c9f21f2289aced"
+    },
+    {
+      "path": "src/aqua2/data/userFeatures2.csv",
+      "sha256": "67eeaf5dff2f846391c419b4aa9e9b705d001bd2d1b48bfcbacb9b816f778be8"
+    },
+    {
+      "path": "src/aqua2/detection.py",
+      "sha256": "a8c98eed4cee6a8d01565300d8282b7673e0d399915dc3e0314825e07d90aa6a"
+    },
+    {
+      "path": "src/aqua2/evt.py",
+      "sha256": "ebd0966c669520d29f53f5af624407658163f620770727e77df4e7d867387579"
+    },
+    {
+      "path": "src/aqua2/export.py",
+      "sha256": "d3515b449d4ec7900afb90598c86b5c481ba5b195351debad402dd9e3c69d3ca"
+    },
+    {
+      "path": "src/aqua2/fea.py",
+      "sha256": "b4177dfdde1b39b8d9c5ba5b2ef47e7e321c04c32cb9805151e66723a9cfb917"
+    },
+    {
+      "path": "src/aqua2/fea_geometry.py",
+      "sha256": "afb9c33cf16697ce73f8ad2bb20f0fcacfc2dd8c7e96c8f3cac07617d764231c"
+    },
+    {
+      "path": "src/aqua2/fea_network.py",
+      "sha256": "87bb37a0d9d64b6183ffc5753b5f6b020aa7a149302cf37b15213313e9aa50c5"
+    },
+    {
+      "path": "src/aqua2/fea_propagation.py",
+      "sha256": "b485cfae7c39d0b4fe766a55d7f40d4be967d04285f8253e052aa2d11fa6fda1"
+    },
+    {
+      "path": "src/aqua2/fea_region.py",
+      "sha256": "85e501cce887631fda9df6b0f30b36517784b62b517802e62e89213053e70393"
+    },
+    {
+      "path": "src/aqua2/features.py",
+      "sha256": "5cd803f3f6fc871d788dbaaffc778b0536c072e0156ee4e8d8b64ccaa9435a64"
+    },
+    {
+      "path": "src/aqua2/glo.py",
+      "sha256": "f16a34a1484e361ca918a156ffb5d225d5535bccd615e09107c177142e6760dc"
+    },
+    {
+      "path": "src/aqua2/input_formats.py",
+      "sha256": "2628fb1309bea3ee77adc2a16eca824de998110c80d27fe4f9fceb48381c5f95"
+    },
+    {
+      "path": "src/aqua2/io.py",
+      "sha256": "6f468cd2e3c68e706590179a2cf9c9aa716ba0197f8778f3993faa6818bace51"
+    },
+    {
+      "path": "src/aqua2/ipc.py",
+      "sha256": "01d9d50af508eb3f0f2d20790c2543ebf539b2ab04d37a0744aaa5184425537b"
+    },
+    {
+      "path": "src/aqua2/model.py",
+      "sha256": "f9733e6533585da4f96694f2f360a97b5a8ec157f4b1c2f2c3c46a219d816fd1"
+    },
+    {
+      "path": "src/aqua2/native.py",
+      "sha256": "cfc583ac5cce863df5d56655ba13eaf614b5f21229cb0abee6cac0166c294669"
+    },
+    {
+      "path": "src/aqua2/pipeline.py",
+      "sha256": "45c3259b1bad2ddb82f1d63d467b2c67422d3e4693b68217197ad381d35199b0"
+    },
+    {
+      "path": "src/aqua2/portable.py",
+      "sha256": "511fb96c8682810a37677128223ef373847933534f22a32efb0eebcdbd0b58c0"
+    },
+    {
+      "path": "src/aqua2/portable_check.py",
+      "sha256": "c563da8dc47d5b37651364fe12b3eb6ff8ee26b233d22184e258bf94cbd0ffd0"
+    },
+    {
+      "path": "src/aqua2/pre.py",
+      "sha256": "4458f7e2e822bbdbf0d6c675452d8da460641e756a119b83ba80a1965cdb01ac"
+    },
+    {
+      "path": "src/aqua2/project.py",
+      "sha256": "79adff74881661e44ef25d58f7eaf7d9e37511e8f97e9c1fc0d62be9d553cbd9"
+    },
+    {
+      "path": "src/aqua2/project_io.py",
+      "sha256": "a3d5f05fe7e729fffb2b9247c6e29ae11bcaf1fd64f91b05f85b1320d70f29e2"
+    },
+    {
+      "path": "src/aqua2/reconstruction.py",
+      "sha256": "dc65689a7ae6c704dff9290ac3ba6631f7e76d01eba6151ba505104e0613c4bb"
+    },
+    {
+      "path": "src/aqua2/reg.py",
+      "sha256": "b24bf132bb272da94c310e6cbc7edb4f354006b38dffe1bbc039532d91cfa484"
+    },
+    {
+      "path": "src/aqua2/result_export.py",
+      "sha256": "b22c5907ae32d997ebd66aac9a08491589d241e4faa94543408dcebad2a8d3a8"
+    },
+    {
+      "path": "src/aqua2/se.py",
+      "sha256": "be6f2ec7333ad6856f6e17386df7caa2ec6e2201dbe0de8add633d797cde67d3"
+    },
+    {
+      "path": "src/aqua2/se_common.py",
+      "sha256": "cb64de2500809713e431c8b286c4743355c57da5370acf0b7a0e03be38a4382f"
+    },
+    {
+      "path": "src/aqua2/se_majority.py",
+      "sha256": "aeb06797309e9ef800368586d79ea8e8041d6a8e3c55811a57e9574360887fc0"
+    },
+    {
+      "path": "src/aqua2/se_partition.py",
+      "sha256": "71346824cfbb64be11fe55826f08270fb149498daf08f7ae51b10f0c274b46dc"
+    },
+    {
+      "path": "src/aqua2/se_refine.py",
+      "sha256": "110c7998f6748b09d76e8d20f1fcaa384818368817abcbcaa41a1724084a39fa"
+    },
+    {
+      "path": "src/aqua2/se_seed.py",
+      "sha256": "10b153def36c40f885d46142ea0a9c97a3540d85a9010fd99d0ee2693379388a"
+    },
+    {
+      "path": "src/aqua2/se_stats.py",
+      "sha256": "ce7da1cd0dc9bb7276b5af549c282632b4d520ef60d76ffc1e60e87ee8ab8f2a"
+    },
+    {
+      "path": "src/aqua2/se_watershed.py",
+      "sha256": "0a34a1ad13d3a61f1df99b67e42565d824286c276f78079d8f262eb1317738e1"
+    },
+    {
+      "path": "src/aqua2/shared_arrays.py",
+      "sha256": "7daa1e9ba97406e2399e400da1aabb6bf3b68cedd6e588cd1f80f9e43b0dfe4c"
+    },
+    {
+      "path": "src/aqua2/tk_runtime.py",
+      "sha256": "5c8053afe0c8bdf6af5a5d83dce509dbab74164e95a2fa433acd95c55cc5aca7"
+    },
+    {
+      "path": "src/aqua2/util.py",
+      "sha256": "85ad8c673defe325f43295725bf84cce681ab558a06f4d9ef8731a7119b55c17"
+    },
+    {
+      "path": "src/aqua2/viewer.py",
+      "sha256": "951bb4ccadfa64d4d0bd017e4a451e982aa078fac622c6c453a9c033bf7e52d1"
+    },
+    {
+      "path": "src/aqua2/viewer_dialogs.py",
+      "sha256": "4e8937011045e659728c610fed9e6685671a9cc70f2c65e37d6c5779cd223179"
+    },
+    {
+      "path": "src/aqua2/viewer_display.py",
+      "sha256": "e07eaaa2e64f939886f653f5272ed85ce9fa743c0c4b638bbb96f6d68d72d7eb"
+    },
+    {
+      "path": "src/aqua2/viewer_gpu.py",
+      "sha256": "dee4a821564bbf5fe117637a3f95c91b0e5c1628f41c71447abfddc09419f072"
+    },
+    {
+      "path": "src/aqua2/viewer_gpu_worker.py",
+      "sha256": "01fc05974335a01fd858f95335b0bd059db83f8fdc8e174c8e8e630ec0b2935c"
+    },
+    {
+      "path": "src/aqua2/viewer_model.py",
+      "sha256": "e554b1430c5d633feac4f08b8db67f8a2743a1f286cd56481eb926ae6bc6df03"
+    },
+    {
+      "path": "src/aqua2/viewer_pixels.py",
+      "sha256": "1207e376341fa2cdd66cca94c5be30be3cec345d7eaa7cfaa618e13792f87f20"
+    },
+    {
+      "path": "src/aqua2/viewer_render.py",
+      "sha256": "21c8fe4a97f8b9e8da50c33fddf774e91af964885fe519cc4290de75c7f620b4"
+    },
+    {
+      "path": "src/aqua2/viewer_step_forms.py",
+      "sha256": "3234d43fc5285ac1d6b7e2096271db1661917d3790f0636c793ecb225eea01a3"
+    },
+    {
+      "path": "src/aqua2/viewer_steps.py",
+      "sha256": "5d4231b06445502c6e18ccd0a1ae0bd279ea239abe229f34ea640ae4f106f6d3"
+    },
+    {
+      "path": "src/aqua2/viewer_surface.py",
+      "sha256": "2bcacfb3b38071299d954fd37092949d70385fcdd0b0b5ed8f858ed1c641211b"
+    },
+    {
+      "path": "src/aqua2/viewer_surface_gl.py",
+      "sha256": "6d5766368fff67bd57e4329ec8f11e2e17671d7ea158ca118623d904662bbeea"
+    },
+    {
+      "path": "src/aqua2/viewer_volume.py",
+      "sha256": "f91c35834975f84043f4787068b5db10383a5c1167088eafae385ff13e6d1b8f"
+    },
+    {
+      "path": "src/aqua2/viewer_volume_gl.py",
+      "sha256": "df4bdffebc326a6c7b8c0edd58e3d1483d3fe4247c363d2c7212cb345ebb693c"
+    },
+    {
+      "path": "src/aqua2/visualization.py",
+      "sha256": "862b0cda8ea6e8749cb423a16a006879ad326f9e4bed0063196bb3a4473082e3"
+    },
+    {
+      "path": "src/aqua2/worker_client.py",
+      "sha256": "5fced6b9d826fe544ebbe6a47fcfcf25ca8dfde56f6508a0cfc8a34dcd5db8fe"
+    },
+    {
+      "path": "src/aqua2/workflow.py",
+      "sha256": "4d1ddad38018732b913dae103226446d40639e5eb88c37d7f6e83e643517c1b9"
+    },
+    {
+      "path": "src/aqua2/workflow_steps.py",
+      "sha256": "1535dcf2fc7ad8dd11fbf1c7cc184438413be3fdee01148f7e4baa6e172210d1"
+    },
+    {
+      "path": "native/bridge.cpp",
+      "sha256": "b66f62ab77eb3c09c4a0ed8ba042bd1951679ae6f1dfc23d3d1c8ecde68d7493"
+    },
+    {
+      "path": "native/mex.h",
+      "sha256": "581dcd0c8064411cfc7c616ba425c4f166547b5aed1302c61edeaaf4d5702304"
+    },
+    {
+      "path": "native/vendor/BILCOMex.cpp",
+      "sha256": "4dcde267b066b92f6eb510a0dc00062e4f01cfc027b6d43f68f605ad25841f61"
+    },
+    {
+      "path": "native/vendor/DTW_Edge_input.cpp",
+      "sha256": "21a2b3e2bf4c5b67e075855fba6fbdf628422db649621b9cc4106e36dabaefdc"
+    },
+    {
+      "path": "native/vendor/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    },
+    {
+      "path": "native/vendor/types_BILCO.h",
+      "sha256": "5795ef1d8cd54cd405e3cbb05d26ba777c33e6cf3b7548a327c0272b3124e984"
+    },
+    {
+      "path": "packaging/AQuA2.spec",
+      "sha256": "4f5552fbc6f9ca24b070298c9eabfe884ef5e2b8801798a5b1adc07fd433be97"
+    },
+    {
+      "path": "packaging/collect_notices.py",
+      "sha256": "9ba6ca50735268ab277f9fde24ae8aa5b3e1473320094f419dbc37cb96994d72"
+    },
+    {
+      "path": "packaging/entry.py",
+      "sha256": "8f3fa92456d13d83aea51f7e9d19b229ffd3714c99c20eaa8ed293b521e0b20a"
+    },
+    {
+      "path": "packaging/runtime.py",
+      "sha256": "8270f7db1aa2bb95c6ba13813fed24ff51ef5befeaf6c16347e18c55c66e055f"
+    },
+    {
+      "path": "packaging/version.txt",
+      "sha256": "a2b67886d88c0a56364e720ba2805f2bc107d403c5c2b6861ab0fd5d83612873"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "portable_source_hash_basis": "Canonical LF text as stored in Git/source ZIP; raw bytes for .mat numeric tables"
+}
